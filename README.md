@@ -7,7 +7,6 @@
 ---
 
 ## Collaboration & Sources
-This work is my own.  
 
 - The base `Dictionary` interface and `UnsortedVectorDict` example were provided.  
 - These are the files I worked:  
