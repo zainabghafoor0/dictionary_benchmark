@@ -15,7 +15,7 @@ This work is my own.
   - `UnsortedLinkedListDict.cpp / .hpp`  
   - `SortedLinkedListDict.cpp / .hpp`  
 
-I did not copy code directly. I changed and tested everything myself until it worked.  
+I changed and tested everything myself until it worked.  
 
 ---
 
