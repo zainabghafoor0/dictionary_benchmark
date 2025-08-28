@@ -2,7 +2,7 @@
 
 **Name:** Zainab Ghafoor  
 **ID:** 008259427  
-**GitHub repository link:** [dictionary_benchmark](https://github.com/zainabghafoor0/dictionary_benchmark.git)  
+**GitHub repository link:** https://github.com/zainabghafoor0/dictionary_benchmark.git
 
 ---
 
@@ -57,4 +57,17 @@ Unsorted Vector [N=500000] — Insert: 9156us, Avg Lookup: 1811830ns, Remove: 45
 Sorted Vector [N=500000] — Insert: 8806us, Avg Lookup: 386ns, Remove: 763420us
 Unsorted Linked List [N=500000] — Insert: 14175us, Avg Lookup: 821579ns, Remove: 35534888us
 Sorted Linked List [N=500000] — Insert: 14151us, Avg Lookup: 718269ns, Remove: 18453638us
+
+
+---
+
+### Challenges
+- The results are **not exactly the same** as the expected ones given in the lab handout.  
+- The **lookup time for linked lists** is much slower in practice because going through nodes one by one takes longer than the “ideal” values.  
+- The **vector sorting** step also takes more time for big inputs, so the numbers are higher than the professor’s sample output.  
+- For the **last test (Sorted Linked List with N=500000)**, my program did finish but it took a little longer than expected.  
+- Even though the numbers are different, the **overall trend is correct**:  
+  - Sorted vector lookups are very fast (nanoseconds).  
+  - Unsorted vector lookups are slower (microseconds).  
+  - Linked lists are slower than vectors, which matches theory.  
 
