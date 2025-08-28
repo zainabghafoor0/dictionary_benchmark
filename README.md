@@ -57,12 +57,8 @@ Sorted Linked List [N=500000] — Insert: 14151us, Avg Lookup: 718269ns, Remove:
 ---
 
 ### Challenges
-- The results are **not exactly the same** as the expected ones given in the lab handout.  
-- The **lookup time for linked lists** is much slower in practice because going through nodes one by one takes longer than the “ideal” values.  
-- The **vector sorting** step also takes more time for big inputs, so the numbers are higher than the professor’s sample output.  
-- For the **last test (Sorted Linked List with N=500000)**, my program did finish but it took a little longer than expected.  
-- Even though the numbers are different, the **overall trend is correct**:  
-  - Sorted vector lookups are very fast (nanoseconds).  
-  - Unsorted vector lookups are slower (microseconds).  
-  - Linked lists are slower than vectors, which matches theory.  
+- The results are not exactly the same as the expected ones given in the lab handout.  
+- The lookup time for linked lists** is much slower. 
+- The vector sorting step also takes more time for big inputs.  
+- For the last test (Sorted Linked List with N=500000), my program did finish, but it took a little longer than expected.  
 
