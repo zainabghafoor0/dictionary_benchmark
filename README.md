@@ -15,11 +15,6 @@ This work is my own.
   - `UnsortedLinkedListDict.cpp / .hpp`  
   - `SortedLinkedListDict.cpp / .hpp`  
 
-For debugging and improving my code, I used **ChatGPT**. It helped me by:  
-- Explaining compiler errors,  
-- Suggesting how to finalize sorted data structures (bulk sort once instead of inserting one by one),  
-- Helping fix a destructor bug in `SortedLinkedListDict`.  
-
 I did not copy code directly. I changed and tested everything myself until it worked.  
 
 ---
