@@ -10,7 +10,7 @@
 This work is my own.  
 
 - The base `Dictionary` interface and `UnsortedVectorDict` example were provided.  
-- I wrote the three new classes myself:  
+- These are the files I worked:  
   - `SortedVectorDict.cpp / .hpp`  
   - `UnsortedLinkedListDict.cpp / .hpp`  
   - `SortedLinkedListDict.cpp / .hpp`  
